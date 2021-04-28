@@ -1,0 +1,134 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+.h1,
+.h2,
+::placeholder {
+    font-family: 'Pompiere', cursive;
+}
+
+
+/* .bg-pink {
+    background-color: rgb(248, 83, 138);
+} */
+
+.fa-pagelines {
+    color: rgb(58, 179, 74);
+}
+
+#navbar {
+    z-index: 9999;
+    transition: 1s;
+}
+
+.header {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url(./media/how-to-use-a-shampoo-bar-0550-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-attachment: fixed;
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 1);
+}
+
+.over-box {
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.over-img {
+    transition: 1s;
+}
+
+.over-box:hover .over-img {
+    transform: scale(1.1)
+}
+
+.bg-section-cta {
+    height: 400px;
+    background: linear-gradient(rgb(233, 226, 226), transparent, rgb(235, 228, 228)), url(./media/bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-section-cta-2 {
+    height: 400px;
+    background-image: url(./media/box6.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+
+/* .product-label {
+    position: relative;
+    top: 50px;
+    left: 0px;
+    padding-left: 10px;
+    width: 120px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    z-index: 99;
+} */
+
+.wrapper {
+    overflow: hidden;
+}
+
+.wrapper .img-fluid {
+    transition: 0.4s;
+}
+
+.wrapper .img-fluid:hover {
+    transform: scale(1.1);
+}
+
+.product-label {
+    font-family: 'Pompiere', cursive;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(243, 28, 99);
+}
+
+.bg-section-timer {
+    height: 400px;
+    background-image: url(./media/how-to-use-a-shampoo-bar-0550-2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.border-bottom-cst {
+    border: none !important;
+    border-radius: 0px;
+    border-bottom: 4px solid #8f93b9 !important;
+}
+
+.bg-footer {
+    background-color: #f760a4;
+    /* background-color: #daddf7; */
+}
+
+.bg-btn-cst {
+    background-color: #cb4d86;
+}
+
+.hr {
+    width: 120px;
+    height: 1px;
+    background-color: #daddf7;
+}
+
+.btn-submit {
+    background-color: #c0c5f8;
+}
